@@ -18,7 +18,7 @@ function App() {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <Dumbbell className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold">Romane Coach</span>
+              <span className="ml-2 text-xl font-bold">Roman Coach</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#programs" className="text-gray-700 hover:text-blue-600">Programmes</a>
@@ -145,24 +145,23 @@ function App() {
       <section id="pricing" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Tarifs</h2>
-            <p className="mt-4 text-xl text-gray-600">Choissisez le tarifs qui vous correspond</p>
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Formules</h2>
+            <p className="mt-4 text-xl text-gray-600">Choissisez la formule qui vous correspond</p>
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
             {/* Basic Plan */}
             <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900">Basique</h3>
+                <h3 className="text-2xl font-bold text-gray-900">1 mois</h3>
                 <p className="mt-4 text-gray-600">Parfait pour commencer</p>
                 <p className="mt-8">
-                  <span className="text-4xl font-extrabold text-gray-900">€49</span>
-                  <span className="text-base font-medium text-gray-500">/mois</span>
+                  <span className="text-4xl font-extrabold text-gray-900">€220</span>
                 </p>
                 <ul className="mt-6 space-y-4">
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
-                    1 session par semaine
+                    Suivi personnalisé
                   </li>
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
@@ -179,16 +178,16 @@ function App() {
             {/* Pro Plan */}
             <div className="bg-blue-600 rounded-lg shadow-lg overflow-hidden">
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-white">Pro</h3>
+                <h3 className="text-2xl font-bold text-white">3 mois</h3>
                 <p className="mt-4 text-blue-200">Le choix le plus populaire</p>
                 <p className="mt-8">
-                  <span className="text-4xl font-extrabold text-white">€99</span>
+                  <span className="text-4xl font-extrabold text-white">€180</span>
                   <span className="text-base font-medium text-blue-200">/mois</span>
                 </p>
                 <ul className="mt-6 space-y-4 text-white">
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-white mr-2" />
-                    2 sessions par semaine
+                    Sessions par semaine selon votre besoin
                   </li>
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-white mr-2" />
@@ -209,16 +208,16 @@ function App() {
             {/* Elite Plan */}
             <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900">Elite</h3>
-                <p className="mt-4 text-gray-600">Pour les athlètes sérieux</p>
+                <h3 className="text-2xl font-bold text-gray-900">6 mois</h3>
+                <p className="mt-4 text-gray-600">Pour le long terme</p>
                 <p className="mt-8">
-                  <span className="text-4xl font-extrabold text-gray-900">€199</span>
+                  <span className="text-4xl font-extrabold text-gray-900">€160</span>
                   <span className="text-base font-medium text-gray-500">/mois</span>
                 </p>
                 <ul className="mt-6 space-y-4">
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
-                    4 sessions par week-end
+                    Sessions par semaine selon votre besoin
                   </li>
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
@@ -235,6 +234,32 @@ function App() {
                   <li className="flex items-center">
                     <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
                     Suivi de la progression chaque mois
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="pricing" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+            {/* 1 séance */}
+            <div className="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-gray-900">1 séance</h3>
+                <p className="mt-4 text-gray-600">Pour essayer</p>
+                <p className="mt-8">
+                  <span className="text-4xl font-extrabold text-gray-900">€60</span>
+                </p>
+                <ul className="mt-6 space-y-4">
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
+                    Séance basique
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-5 w-5 text-green-500 mr-2" />
+                    Support par mail
                   </li>
                 </ul>
               </div>
@@ -327,7 +352,7 @@ function App() {
                     <span className="text-base text-gray-900">Téléphone</span>
                     <dd className="mt-1">
                       <a href="tel:+1234567890" className="text-blue-600 hover:text-blue-700">
-                        (123) 456-7890
+                        07 82 44 20 79
                       </a>
                     </dd>
                   </dt>
@@ -338,7 +363,7 @@ function App() {
                     <span className="text-base text-gray-900">Email</span>
                     <dd className="mt-1">
                       <a href="mailto:coach@fitcoachpro.com" className="text-blue-600 hover:text-blue-700">
-                        coach@fitcoachpro.com
+                        romanguillossou2@gmail.com
                       </a>
                     </dd>
                   </dt>
